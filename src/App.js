@@ -7,7 +7,7 @@ const App = () => {
     const [showNav, setShowNav] = useState(false)
     const [selectedOption, setSelectedOption] = useState(null);
     const [addUserForm, setAddUserForm] = useState(false);
-    const [switchUser, setSwitchUser] = useState(false);
+    const [switchUser, setSwitchUser] = useState(true);
     const [darkmode, setDarkmode] = useState(false);
     const [selectedUser, setSelectedUser] = useState(null);
 
